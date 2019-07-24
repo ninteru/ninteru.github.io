@@ -4,13 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Nino Teruya</title>
+    <title>Contact - Nino</title>
+    <meta property="og:image" content="assets/img/avatars/profile.png">
+    <meta name="description" content="Online portfolio showcasing Nino's engineering projects and creative photography.">
     <meta property="og:type" content="website">
-    <meta name="twitter:title" content="Nino Teruya's Portfolio">
-    <meta property="og:image" content="assets/img/projects/Dashboard-v2.jpg">
-    <meta name="description" content="Online portfolio showcasing Nino's projects and photography.">
-    <meta name="twitter:image" content="assets/img/avatars/profile.png">
-    <meta name="twitter:description" content="Online portfolio showcasing Nino's projects and photography">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
@@ -26,32 +23,24 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="photography.html">Photography</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="projects.html">Projects</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main class="page lanidng-page">
-        <section class="portfolio-block block-intro">
+    <main class="page contact-page">
+        <section class="portfolio-block contact">
             <div class="container">
-                <div class="avatar" style="background-image: url(&quot;assets/img/avatars/profile.png&quot;);"></div>
-                <div class="about-me">
-                    <p>Hello! I am <strong>Nino Teruya</strong>. I work as a content manager and research assistant. I have passion for photography, embedded systems, and clean design.</p><a class="btn btn-outline-primary" role="button" href="contact.html">Contact me</a></div>
-            </div>
-        </section>
-        <section class="portfolio-block photography">
-            <div class="container">
-                <div class="row no-gutters">
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="projects.html"><img class="img-fluid image" src="assets/img/projects/Dashboard-v2.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="projects.html"><img class="img-fluid image" src="assets/img/projects/Tower-of-Power.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="projects.html"><img class="img-fluid image" src="assets/img/projects/AGV.jpg"></a></div>
+                <div class="heading">
+                    <h2>Contact me</h2>
                 </div>
-            </div>
-        </section>
-        <section class="portfolio-block call-to-action border-bottom">
-            <div class="container">
-                <div class="d-flex justify-content-center align-items-center content">
-                    <h3>Like what you see?</h3><a class="btn btn-outline-primary btn-lg" role="button" href="contact.html">Contact me</a></div>
+                <form data-bss-recipient="9aaa3e128524cec1a5660889f85a8264" data-bss-subject="Portfolio-Contact">
+                    <div class="form-group"><label for="name">Your Name</label><input class="form-control item" type="text" id="name"></div>
+                    <div class="form-group"><label for="subject">Subject</label><input class="form-control item" type="text" id="subject"></div>
+                    <div class="form-group"><label for="email">Email</label><input class="form-control item" type="email" id="email"></div>
+                    <div class="form-group"><label for="message">Message</label><textarea class="form-control item" id="message"></textarea></div>
+                    <div class="form-group"><button class="btn btn-primary btn-block btn-lg" type="submit">Submit Form</button></div>
+                </form>
             </div>
         </section>
     </main>
