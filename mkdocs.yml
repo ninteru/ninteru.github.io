@@ -1,4 +1,6 @@
 site_name: nino
+copyright: "© 2021 ninteru, licensed under Creative Commons CC BY-SA 4.0"
+repo_url: "https://github.com/ninteru/ninteru.github.io"
 nav:
     - home: index.md
     - links: links.md
