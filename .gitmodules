@@ -1,0 +1,3 @@
+[submodule "ninteru_mkdocs_theme"]
+	path = ninteru_mkdocs_theme
+	url = https://github.com/ninteru/ninteru_mkdocs_theme.git

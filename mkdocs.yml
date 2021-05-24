@@ -2,3 +2,6 @@ site_name: nino
 nav:
     - home: index.md
     - links: links.md
+theme:
+    name: null
+    custom_dir: 'ninteru_mkdocs_theme/ninteru_mkdocs_theme'
